@@ -32,8 +32,8 @@ curl -s https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin/
 mv /usr/local/bin/composer.phar /usr/local/bin/composer
 
 # set document root
-#sudo rm -rf /var/www/html
-#sudo ln -fs /vagrant/html /var/www/html
+sudo rm -rf /var/www/html
+sudo ln -fs /vagrant/lomd/public /var/www/html
 
 # apache
 sudo service httpd start
