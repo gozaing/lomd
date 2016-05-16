@@ -18,7 +18,7 @@ sudo yum install -y http://dev.mysql.com/get/mysql-community-release-el6-5.noarc
 
 # php packages
 # sudo yum install -y --enablerepo=remi --enablerepo=remi-php55 php php-opcache php-devel php-mbstring php-mcrypt php-mysqlnd php-phpunit-PHPUnit php-pecl-xdebug php-pear php-xml php-pecl-apcu php-gd 
-sudo yum install -y --enablerepo=remi --enablerepo=remi-php56 php php-mcrypt php-mbstring php-pdo php-mysqlnd php-tokenizer
+sudo yum install -y --enablerepo=remi --enablerepo=remi-php56 php php-mcrypt php-mbstring php-pdo php-mysqlnd php-tokenizer php-xml
 
 # mysql packages
 sudo yum install -y --enablerepo=epel openssl-devel perl-DBI libmcrypt-devel libaio libaio-devel
